@@ -27,7 +27,6 @@ header {
 }
 
 .logo {
-    
     line-height: 1.15;
     display: flex;
     align-items: center;
@@ -79,7 +78,7 @@ header span {
 }
 
 
-/* Navigation Section */
+/* Nav Bar */
 nav {
     background-color: firebrick;
     color: white;
@@ -89,6 +88,10 @@ nav {
 .nav-list {
     display: flex;
     justify-content: space-between;
+}
+
+.mobile-nav {
+    display: none;
 }
 
 
@@ -152,4 +155,86 @@ footer {
     background-color: black;
     padding: 5rem;
     height: 0;
+}
+
+}
+
+
+/* Responsive Design Styles */
+@media only screen and (max-width: 1024px) {
+    .nav-list {
+        display: none;
+    }
+    
+    .mobile-nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .product-details {
+        width: 47%;
+    }
+    
+    .products .third {
+        display: none;
+    }
+    
+    footer {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    /* Additional CSS 
+    header span {
+        display: none;
+    }
+    
+    header img {
+        margin: 0 auto;
+        padding: 0;
+    }
+    */
+    
+    .banner {
+        height: 15rem;
+    }
+    
+    .banner-content {
+        position: relative;
+        top: 10rem;
+        padding: 1rem 2rem;
+        width: auto;
+    }
+    
+    .banner-content h3 {
+        font-size: 0.77rem;
+        padding-bottom: 0;
+    }
+    
+    .banner-content h1 {
+        font-size: 1rem;
+    }
+    
+    .product-details {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .products .second {
+        display: none;
+    }
+    
+    .business-info {
+        display: block;
+    }
+    
+    .info {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .info p {
+        margin-top: 0.5rem;
+    }
 }
