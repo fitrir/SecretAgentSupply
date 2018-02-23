@@ -19,6 +19,7 @@ main {
     top: 3rem;
 }
 
+
 /* Header Section */
 header {
     background-color: black;
@@ -124,3 +125,31 @@ nav {
     padding: 0.5rem 0;
 }
 
+
+/* Business Info Section */
+.business-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.info {
+    width: 35%;
+}
+
+.info-title {
+    color: white;
+    background: black;
+    padding: 1rem 2rem;
+}
+
+
+/* Footer Section */
+footer {
+    height: 5rem;
+    color: white;
+    background-color: black;
+    padding: 5rem;
+    height: 0;
+}
