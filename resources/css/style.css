@@ -40,7 +40,8 @@ header span {
     font-size: 1rem;
 }
 
-/* Banner Content */
+
+/* Banner Section */
 .banner {
     height: 25rem;
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
@@ -70,4 +71,17 @@ header span {
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
+}
+
+
+/* Navigation Section */
+nav {
+    background-color: firebrick;
+    color: white;
+    padding: 0.75rem;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: space-between;
 }
