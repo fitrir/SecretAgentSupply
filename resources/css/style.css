@@ -49,7 +49,7 @@ header span {
 /* Banner Section */
 .banner {
     height: 25rem;
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-image: url(/resources/images/moto.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
