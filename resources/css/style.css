@@ -157,8 +157,6 @@ footer {
     height: 0;
 }
 
-}
-
 
 /* Responsive Design Styles */
 @media only screen and (max-width: 1024px) {
@@ -180,7 +178,7 @@ footer {
     }
     
     footer {
-        padding-left: 0px;
+        padding-left: 0;
     }
 }
 
@@ -236,5 +234,9 @@ footer {
     
     .info p {
         margin-top: 0.5rem;
+    }
+    
+    footer {
+        text-align: center;
     }
 }
